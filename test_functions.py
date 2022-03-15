@@ -6,4 +6,5 @@ class Samples(unittest.TestCase):
         self.assertRaises(TypeError, cubeA, "s")
         self.assertRaises(TypeError, cubeA, 3j)
 
-
+if __name__ == '__main__':
+    unittest.main(argv=['first-arg-is-ignored'], exit=False)
